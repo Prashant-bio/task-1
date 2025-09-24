@@ -1,0 +1,12 @@
+1. nmap -sn 192.168.1.0/24 — ping-scan subnet
+
+2. nmap -sS -p 1-1000 <ip_address> — SYN scan ports 1–1000
+
+3. nmap -sV -O target_ip — service + OS detection
+
+4. nmap -p- target_ip — scan all TCP ports
+
+5. nmap --script vuln target_ip — run vulnerability scripts (authorized only)
+
+6. nmap -oA results target_ip — save results in multiple formats
+
