@@ -1,0 +1,30 @@
+# Interview Questions – Task 1
+
+### 1. What is an open port?
+A network port that is actively accepting connections.
+
+### 2. How does Nmap perform a TCP SYN scan?
+It sends SYN packets (like the first step of a handshake). If SYN-ACK is received → port is open.
+
+### 3. What risks are associated with open ports?
+- Unauthorized access  
+- Exploitation of services  
+- Reconnaissance by attackers  
+
+### 4. Explain TCP vs UDP scanning.
+- TCP: Connection-oriented, reliable  
+- UDP: Connectionless, no handshake, harder to detect  
+
+### 5. How can open ports be secured?
+- Close unused ports  
+- Use firewalls  
+- Restrict access with ACLs  
+
+### 6. What is a firewall’s role regarding ports?
+Blocks/filters traffic to specific ports based on security policies.
+
+### 7. What is a port scan and why do attackers perform it?
+A method to identify open ports & services; attackers use it for reconnaissance.
+
+### 8. How does Wireshark complement port scanning?
+It captures and analyzes network packets → helps verify scan traffic and detect anomalies.
